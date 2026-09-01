@@ -1,23 +1,25 @@
-[
-  {
-    "img": "/Plumbing-Pipes-4.webp",
-    "title": "Professional Construction",
-    "subtitle": "Done Once. Done Right.",
-    "text": "Reliable construction, maintenance and repair solutions for residential and commercial properties.",
-    "cta": "GET A FREE QUOTE"
-  },
-  {
-    "img": "/home.webp",
-    "title": "Building The Future",
-    "subtitle": "With Quality Workmanship",
-    "text": "From structural repairs to complete renovations, we deliver quality on every project.",
-    "cta": "OUR SERVICES"
-  },
-  {
-    "img": "/image.webp",
-    "title": "Trusted Property",
-    "subtitle": "Maintenance Experts",
-    "text": "Electrical, plumbing, carpentry, painting and more—all under one trusted contractor.",
-    "cta": "CONTACT US"
-  }
-]
+{
+  "items": [
+    {
+      "img": "/Plumbing-Pipes-4.webp",
+      "title": "Professional Construction",
+      "subtitle": "Done Once. Done Right.",
+      "text": "Reliable construction, maintenance and repair solutions for residential and commercial properties.",
+      "cta": "GET A FREE QUOTE"
+    },
+    {
+      "img": "/home.webp",
+      "title": "Building The Future",
+      "subtitle": "With Quality Workmanship",
+      "text": "From structural repairs to complete renovations, we deliver quality on every project.",
+      "cta": "OUR SERVICES"
+    },
+    {
+      "img": "/image.webp",
+      "title": "Trusted Property",
+      "subtitle": "Maintenance Experts",
+      "text": "Electrical, plumbing, carpentry, painting and more\u2014all under one trusted contractor.",
+      "cta": "CONTACT US"
+    }
+  ]
+}

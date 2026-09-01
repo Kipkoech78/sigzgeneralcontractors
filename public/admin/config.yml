@@ -61,14 +61,12 @@ collections:
         label: "Nav Links"
         file: "content/nav.json"
         fields:
-          - name: []
-            label: "Menu Items"
+          - label: "Menu Items"
+            name: "items"
             widget: "list"
-            field:
-              type: object
-              fields:
-                - { label: "Label", name: "label", widget: "string" }
-                - { label: "Link (#section-id)", name: "href", widget: "string" }
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Link (#section-id)", name: "href", widget: "string" }
 
   - name: "hero"
     label: "Hero Slides"
@@ -78,17 +76,15 @@ collections:
         label: "Hero Slides"
         file: "content/hero-slides.json"
         fields:
-          - name: []
-            label: "Slides"
+          - label: "Slides"
+            name: "items"
             widget: "list"
-            field:
-              type: object
-              fields:
-                - { label: "Image", name: "img", widget: "image" }
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Subtitle", name: "subtitle", widget: "string" }
-                - { label: "Text", name: "text", widget: "text" }
-                - { label: "Button Text", name: "cta", widget: "string" }
+            fields:
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Button Text", name: "cta", widget: "string" }
 
   - name: "services"
     label: "Services"
@@ -98,14 +94,12 @@ collections:
         label: "Services List"
         file: "content/services.json"
         fields:
-          - name: []
-            label: "Services"
+          - label: "Services"
+            name: "items"
             widget: "list"
-            field:
-              type: object
-              fields:
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Text", name: "text", widget: "text" }
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
 
   - name: "project_categories"
     label: "Project Categories"
@@ -115,16 +109,14 @@ collections:
         label: "Project Categories"
         file: "content/project-categories.json"
         fields:
-          - name: []
-            label: "Categories"
+          - label: "Categories"
+            name: "items"
             widget: "list"
-            field:
-              type: object
-              fields:
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Image", name: "img", widget: "image" }
-                - { label: "Image Alt Text", name: "alt", widget: "string" }
-                - { label: "Text", name: "text", widget: "text" }
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Image Alt Text", name: "alt", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
 
   - name: "testimonials"
     label: "Testimonials"
@@ -134,15 +126,13 @@ collections:
         label: "Testimonials"
         file: "content/testimonials.json"
         fields:
-          - name: []
-            label: "Testimonials"
+          - label: "Testimonials"
+            name: "items"
             widget: "list"
-            field:
-              type: object
-              fields:
-                - { label: "Client Name", name: "name", widget: "string" }
-                - { label: "Project Type", name: "route", widget: "string" }
-                - { label: "Testimonial Text", name: "text", widget: "text" }
+            fields:
+              - { label: "Client Name", name: "name", widget: "string" }
+              - { label: "Project Type", name: "route", widget: "string" }
+              - { label: "Testimonial Text", name: "text", widget: "text" }
 
   - name: "why_choose_us"
     label: "Why Choose Us"
@@ -152,11 +142,9 @@ collections:
         label: "Why Choose Us"
         file: "content/why-choose-us.json"
         fields:
-          - name: []
-            label: "Points"
+          - label: "Points"
+            name: "items"
             widget: "list"
-            field:
-              type: object
-              fields:
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Text", name: "text", widget: "text" }
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }

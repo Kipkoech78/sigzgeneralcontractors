@@ -1,27 +1,29 @@
-[
-  {
-    "name": "James Mwangi",
-    "route": "Residential Renovation",
-    "text": "Sigz General Contractors transformed our home beyond expectations. The workmanship and professionalism were outstanding."
-  },
-  {
-    "name": "Grace Wanjiru",
-    "route": "Office Renovation",
-    "text": "They completed our office renovation on schedule and maintained excellent communication throughout."
-  },
-  {
-    "name": "Peter Otieno",
-    "route": "Electrical Installation",
-    "text": "Very professional electricians. Everything was installed safely and neatly."
-  },
-  {
-    "name": "Susan Njeri",
-    "route": "Painting Project",
-    "text": "Our house looks brand new. The finishing was clean and the team was respectful."
-  },
-  {
-    "name": "David Kimani",
-    "route": "Commercial Maintenance",
-    "text": "Reliable, affordable and highly skilled. We now use SGC for all our maintenance work."
-  }
-]
+{
+  "items": [
+    {
+      "name": "James Mwangi",
+      "route": "Residential Renovation",
+      "text": "Sigz General Contractors transformed our home beyond expectations. The workmanship and professionalism were outstanding."
+    },
+    {
+      "name": "Grace Wanjiru",
+      "route": "Office Renovation",
+      "text": "They completed our office renovation on schedule and maintained excellent communication throughout."
+    },
+    {
+      "name": "Peter Otieno",
+      "route": "Electrical Installation",
+      "text": "Very professional electricians. Everything was installed safely and neatly."
+    },
+    {
+      "name": "Susan Njeri",
+      "route": "Painting Project",
+      "text": "Our house looks brand new. The finishing was clean and the team was respectful."
+    },
+    {
+      "name": "David Kimani",
+      "route": "Commercial Maintenance",
+      "text": "Reliable, affordable and highly skilled. We now use SGC for all our maintenance work."
+    }
+  ]
+}

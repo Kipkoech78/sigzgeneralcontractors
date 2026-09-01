@@ -1,34 +1,36 @@
-[
-  {
-    "title": "Professional Workmanship",
-    "text": "Skilled professionals committed to delivering exceptional construction quality."
-  },
-  {
-    "title": "Timely Project Delivery",
-    "text": "Projects completed within agreed timelines without compromising quality."
-  },
-  {
-    "title": "Transparent Pricing",
-    "text": "Competitive quotations with honest pricing and no hidden costs."
-  },
-  {
-    "title": "Safety First",
-    "text": "Strict adherence to construction safety standards on every project."
-  },
-  {
-    "title": "Customer Focused",
-    "text": "We prioritize client satisfaction from consultation to project completion."
-  },
-  {
-    "title": "Quality Materials",
-    "text": "We use durable, high-quality materials that stand the test of time."
-  },
-  {
-    "title": "Residential & Commercial",
-    "text": "Serving homeowners, businesses and property managers with equal dedication."
-  },
-  {
-    "title": "Reliable Team",
-    "text": "Experienced technicians across construction, plumbing, electrical, carpentry and metal works."
-  }
-]
+{
+  "items": [
+    {
+      "title": "Professional Workmanship",
+      "text": "Skilled professionals committed to delivering exceptional construction quality."
+    },
+    {
+      "title": "Timely Project Delivery",
+      "text": "Projects completed within agreed timelines without compromising quality."
+    },
+    {
+      "title": "Transparent Pricing",
+      "text": "Competitive quotations with honest pricing and no hidden costs."
+    },
+    {
+      "title": "Safety First",
+      "text": "Strict adherence to construction safety standards on every project."
+    },
+    {
+      "title": "Customer Focused",
+      "text": "We prioritize client satisfaction from consultation to project completion."
+    },
+    {
+      "title": "Quality Materials",
+      "text": "We use durable, high-quality materials that stand the test of time."
+    },
+    {
+      "title": "Residential & Commercial",
+      "text": "Serving homeowners, businesses and property managers with equal dedication."
+    },
+    {
+      "title": "Reliable Team",
+      "text": "Experienced technicians across construction, plumbing, electrical, carpentry and metal works."
+    }
+  ]
+}

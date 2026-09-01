@@ -10,10 +10,10 @@ import testimonialsData from "../../content/testimonials.json";
 import whyChooseUsData from "../../content/why-choose-us.json";
 import companyData from "../../content/company.json";
 
-export const NAV_LINKS = navLinksData;
-export const heroSlides = heroSlidesData;
-export const services = servicesData;
-export const projectCategories = projectCategoriesData;
-export const testimonials = testimonialsData;
-export const whyChooseUs = whyChooseUsData;
+export const NAV_LINKS = navLinksData.items;
+export const heroSlides = heroSlidesData.items;
+export const services = servicesData.items;
+export const projectCategories = projectCategoriesData.items;
+export const testimonials = testimonialsData.items;
+export const whyChooseUs = whyChooseUsData.items;
 export const COMPANY = companyData;
