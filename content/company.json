@@ -1,0 +1,66 @@
+{
+  "name": "Sigz General Contractors",
+  "short": "SGC",
+  "tagline": "Done Once. Done Right.",
+
+  "phone": "0700 870 341",
+  "phoneHref": "tel:+254700870341",
+
+  "whatsapp": "254700870341",
+  "whatsappHref": "https://wa.me/254700870341",
+
+  "email": "sigzgeneralcontractors@gmail.com",
+  "emailHref": "mailto:sigzgeneralcontractors@gmail.com",
+
+  "address": "P.O. Box 62014-00200, Nairobi, Kenya",
+  "description": "Sigz General Contractors is a reliable construction and property maintenance company delivering quality workmanship, timely completion and customer-focused service.",
+
+  "motto": "Done Once. Done Right.",
+  "hours": "Monday - Saturday | 8:00 AM - 6:00 PM",
+
+  "emailSignature": "Sigz General Contractors\nProfessional Construction, Maintenance & Repair Solutions",
+  "emergency": "Available for urgent repair requests by phone.",
+
+  "heroTitle": "Professional Construction, Maintenance & Repair Solutions",
+  "heroSubtitle": "Reliable construction, renovation and property maintenance services for residential and commercial clients across Nairobi and surrounding areas.",
+
+  "mission": "To deliver high-quality, reliable, and innovative construction and property maintenance solutions that exceed client expectations while ensuring safety, efficiency and sustainability in every project.",
+  "vision": "To be the leading construction and maintenance company in Nairobi and beyond, recognized for excellence, integrity, and transforming spaces into functional, durable and aesthetically appealing environments.",
+  "about": "Sigz General Contractors is a reliable and professional construction and property maintenance company offering high-quality workmanship for residential and commercial projects. We are committed to excellence, timely project delivery, safety and customer satisfaction.",
+
+  "experience": "7+ Years",
+
+  "serviceArea": [
+    "Nairobi",
+    "Kiambu",
+    "Machakos",
+    "Kajiado",
+    "Surrounding Counties"
+  ],
+
+  "quote": "Need construction, maintenance or repairs? Contact us today for a FREE site visit and quotation.",
+
+  "facebook": "#",
+  "instagram": "#",
+  "linkedin": "#",
+  "tiktok": "#",
+
+  "website": "https://sigz.vercel.app/",
+
+  "keywords": [
+    "Construction",
+    "Plumbing",
+    "Plumber Nairobi",
+    "Drainage Repair",
+    "House Repairs",
+    "General Repairs",
+    "Building Repairs",
+    "Maintenance",
+    "Painting",
+    "Electrical",
+    "Carpentry",
+    "Roofing",
+    "Metal Fabrication",
+    "Contractors Nairobi"
+  ]
+}

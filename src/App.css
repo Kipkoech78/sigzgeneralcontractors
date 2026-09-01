@@ -1,0 +1,131 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* ---- SGC design tokens ---- */
+:root {
+  --ink: #17191d;        /* charcoal / near-black */
+  --steel: #45505b;      /* muted steel gray */
+  --concrete: #f3f1ec;   /* warm light background */
+  --safety: #e8571f;     /* safety-orange accent (primary CTA) */
+  --caution: #f2b705;    /* amber, used sparingly for hazard-stripe accents */
+  --white: #ffffff;
+}
+
+/* ---- Reveal-on-scroll ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+
+/* ---- Hazard stripe divider (signature element) ---- */
+.hazard-stripe {
+  height: 10px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--ink),
+    var(--ink) 14px,
+    var(--caution) 14px,
+    var(--caution) 28px
+  );
+}
+
+/* ---- Clipped-corner panel (signature card shape) ---- */
+.cut-corner {
+  clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%);
+}
+.cut-corner-lg {
+  clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%);
+}
+
+/* ---- Pulse ring for the floating contact button ---- */
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(232, 87, 31, 0.55); }
+  70% { box-shadow: 0 0 0 16px rgba(232, 87, 31, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(232, 87, 31, 0); }
+}
+.pulse-cta {
+  animation: pulse-ring 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ---- Marquee scroll for the trust/why-us strip ---- */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
+.marquee-wrap:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* ---- Hero entrance ---- */
+@keyframes hero-draw-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes hero-draw-y { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes hero-fade-up { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+
+.hero-line-top { animation: hero-draw-x 0.7s cubic-bezier(0.65,0,0.35,1) forwards; transform-origin: left center; transform: scaleX(0); }
+.hero-line-left { animation: hero-draw-y 0.7s cubic-bezier(0.65,0,0.35,1) forwards; animation-delay: .05s; transform-origin: top center; transform: scaleY(0); }
+.hero-title { animation: hero-fade-up .7s ease-out forwards; animation-delay: .5s; opacity: 0; }
+.hero-tag { animation: hero-fade-up .6s ease-out forwards; animation-delay: .3s; opacity: 0; }
+.hero-text { animation: hero-fade-up .7s ease-out forwards; animation-delay: .7s; opacity: 0; }
+.hero-cta { animation: hero-fade-up .7s ease-out forwards; animation-delay: .9s; opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .hero-line-top, .hero-line-left, .hero-title, .hero-tag, .hero-text, .hero-cta, .pulse-cta, .marquee-track {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

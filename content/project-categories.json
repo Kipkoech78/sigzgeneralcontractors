@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Building Repairs",
+    "img": "/metal.webp",
+    "alt": "Construction worker repairing a building structure with metal reinforcement in Nairobi",
+    "text": "Professional structural repairs, plastering, flooring, roofing and waterproofing."
+  },
+  {
+    "title": "Plumbing",
+    "img": "/happy-man-plumber.webp",
+    "alt": "Licensed plumber repairing pipes in a Nairobi residential home",
+    "text": "Complete plumbing installation, maintenance and emergency repairs."
+  },
+  {
+    "title": "Electrical",
+    "img": "/construction-worker.webp",
+    "alt": "Certified electrician installing electrical wiring and lighting in a commercial building",
+    "text": "Safe electrical wiring, lighting systems and power installations."
+  },
+  {
+    "title": "Carpentry",
+    "img": "/carpenter-making-wooden-.webp",
+    "alt": "Professional carpenter crafting custom wooden furniture in a workshop",
+    "text": "Custom furniture, cabinets, wardrobes and wooden fittings."
+  },
+  {
+    "title": "Painting",
+    "img": "/painting.webp",
+    "alt": "Professional painter applying fresh paint to an interior residential wall",
+    "text": "Interior and exterior painting for residential and commercial properties."
+  },
+  {
+    "title": "Metal Fabrication",
+    "img": "/custom-metal-gate.webp",
+    "alt": "Metal fabricator welding a custom steel gate for a residential property",
+    "text": "Professional welding, fabrication, gates, grills and steel works."
+  },
+  {
+    "title": "Outdoor Works",
+    "img": "/Plumbing-Pipes-4.webp",
+    "alt": "Workers installing drainage pipes and improving outdoor infrastructure around a property",
+    "text": "Drainage systems, paving, fencing and compound improvements."
+  }
+]

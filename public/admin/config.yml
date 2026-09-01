@@ -1,0 +1,162 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME # <-- change this
+  branch: main
+  base_url: https://YOUR-SITE.vercel.app # <-- change this to your live Vercel URL
+  auth_endpoint: api/auth
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "company"
+    label: "Company Info"
+    delete: false
+    files:
+      - name: "company"
+        label: "Company Details"
+        file: "content/company.json"
+        fields:
+          - { label: "Company Name", name: "name", widget: "string" }
+          - { label: "Short Name", name: "short", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Phone (display)", name: "phone", widget: "string" }
+          - { label: "Phone (tel: link)", name: "phoneHref", widget: "string" }
+          - { label: "WhatsApp Number", name: "whatsapp", widget: "string" }
+          - { label: "WhatsApp Link", name: "whatsappHref", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Email Link", name: "emailHref", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Motto", name: "motto", widget: "string" }
+          - { label: "Business Hours", name: "hours", widget: "string" }
+          - { label: "Email Signature", name: "emailSignature", widget: "text" }
+          - { label: "Emergency Note", name: "emergency", widget: "text" }
+          - { label: "Hero Title", name: "heroTitle", widget: "text" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Mission", name: "mission", widget: "text" }
+          - { label: "Vision", name: "vision", widget: "text" }
+          - { label: "About", name: "about", widget: "text" }
+          - { label: "Years of Experience", name: "experience", widget: "string" }
+          - label: "Service Areas"
+            name: "serviceArea"
+            widget: "list"
+            field: { label: "Area", name: "area", widget: "string" }
+          - { label: "Quote / CTA Text", name: "quote", widget: "text" }
+          - { label: "Facebook URL", name: "facebook", widget: "string" }
+          - { label: "Instagram URL", name: "instagram", widget: "string" }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+          - { label: "TikTok URL", name: "tiktok", widget: "string" }
+          - { label: "Website URL", name: "website", widget: "string" }
+          - label: "SEO Keywords"
+            name: "keywords"
+            widget: "list"
+            field: { label: "Keyword", name: "keyword", widget: "string" }
+
+  - name: "nav"
+    label: "Navigation Menu"
+    delete: false
+    files:
+      - name: "nav"
+        label: "Nav Links"
+        file: "content/nav.json"
+        fields:
+          - name: []
+            label: "Menu Items"
+            widget: "list"
+            field:
+              type: object
+              fields:
+                - { label: "Label", name: "label", widget: "string" }
+                - { label: "Link (#section-id)", name: "href", widget: "string" }
+
+  - name: "hero"
+    label: "Hero Slides"
+    delete: false
+    files:
+      - name: "hero"
+        label: "Hero Slides"
+        file: "content/hero-slides.json"
+        fields:
+          - name: []
+            label: "Slides"
+            widget: "list"
+            field:
+              type: object
+              fields:
+                - { label: "Image", name: "img", widget: "image" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Subtitle", name: "subtitle", widget: "string" }
+                - { label: "Text", name: "text", widget: "text" }
+                - { label: "Button Text", name: "cta", widget: "string" }
+
+  - name: "services"
+    label: "Services"
+    delete: false
+    files:
+      - name: "services"
+        label: "Services List"
+        file: "content/services.json"
+        fields:
+          - name: []
+            label: "Services"
+            widget: "list"
+            field:
+              type: object
+              fields:
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Text", name: "text", widget: "text" }
+
+  - name: "project_categories"
+    label: "Project Categories"
+    delete: false
+    files:
+      - name: "project_categories"
+        label: "Project Categories"
+        file: "content/project-categories.json"
+        fields:
+          - name: []
+            label: "Categories"
+            widget: "list"
+            field:
+              type: object
+              fields:
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Image", name: "img", widget: "image" }
+                - { label: "Image Alt Text", name: "alt", widget: "string" }
+                - { label: "Text", name: "text", widget: "text" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    delete: false
+    files:
+      - name: "testimonials"
+        label: "Testimonials"
+        file: "content/testimonials.json"
+        fields:
+          - name: []
+            label: "Testimonials"
+            widget: "list"
+            field:
+              type: object
+              fields:
+                - { label: "Client Name", name: "name", widget: "string" }
+                - { label: "Project Type", name: "route", widget: "string" }
+                - { label: "Testimonial Text", name: "text", widget: "text" }
+
+  - name: "why_choose_us"
+    label: "Why Choose Us"
+    delete: false
+    files:
+      - name: "why_choose_us"
+        label: "Why Choose Us"
+        file: "content/why-choose-us.json"
+        fields:
+          - name: []
+            label: "Points"
+            widget: "list"
+            field:
+              type: object
+              fields:
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Text", name: "text", widget: "text" }
